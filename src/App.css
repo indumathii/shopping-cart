@@ -1,0 +1,169 @@
+span {
+  color: black;
+  margin-left: 1em;
+
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+span:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  background-color: aqua;
+  margin-bottom: 40rem;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.Cart {
+  margin-right: 2em;
+  width: 12vw;
+  height: 7vh;
+  justify-content: center;
+  display: flex;
+  align-items: space-between;
+  background-color: crimson;
+ 
+
+}
+
+section {
+  background-color: black;
+  width: 100vw;
+  height: 50vh;
+  margin-top: -40rem;
+  margin-left: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Motto div {
+  color: rgb(244, 246, 247);
+  font-size: larger;
+  font-weight: bold;
+}
+.Brand-idea{
+  font-size: 70px !important;
+  font-weight: bolder;
+  color: pink!important;
+}
+
+.Products {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.product-card {
+  height: 60vh;
+  width: 18vw;
+  background-color: rgb(239, 239, 242);
+  border-radius: 5px;
+  margin: 1rem;
+  margin-top: 5rem;
+  border: 0.5px solid rgb(13, 13, 14);
+  text-align: center;
+  
+}
+
+.imagesource {
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 4, 7);
+}
+
+.imagesource img {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+.product-name{
+  font-size: 20px;
+  text-align: center;
+  color:rgb(0, 2, 6);
+  font-weight: bolder;
+  margin-right: 1rem;
+  margin-top:1rem;
+}
+.product-rating{
+  font-size: 20px;
+  text-align: center;
+  color:rgb(0, 2, 6);
+  font-weight: bolder;
+  margin-right: 1rem;
+  margin-top:0.25rem;
+}
+.buy{
+  height:6vh;
+  width:13vw;
+  border:1px solid black;
+  border-radius: 3px;
+  color:black;
+  background-color: aliceblue;
+  margin-top: 1rem;
+  overflow: hidden;
+  display: flex;
+  margin-left:2rem;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.buy:hover{
+  border:2px solid rgb(12, 36, 192);
+}
+
+.product-card:hover{
+  border:2px solid black;
+}
+.Cart:hover{
+  border:2px solid black;
+  color:black;
+}
+.cartcount{
+  color:rgb(0, 0, 7);
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left:1rem;
+  background-color: white;
+  width:2vw;
+  border-radius:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.carticon{
+margin-left:1rem;
+}
